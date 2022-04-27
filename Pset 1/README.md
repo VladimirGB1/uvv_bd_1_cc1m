@@ -13,7 +13,7 @@ Pset consiste em um conjunto de problemas e tarefas difíceis propostas pelo pro
 
 #### Modelo do Elmasri:
 Como usar:
-1. Acessar a pasta ![PowerArchitect.architect](https://github.com/VladimirGB1/uvv_bd_1_cc1m/blob/main/Pset%201/PowerArchitect.architect),
+1. Acessar a pasta [PowerArchitect.architect](<https://github.com/VladimirGB1/uvv_bd_1_cc1m/blob/main/Pset%201/PowerArchitect.architect>),
 2. Copiar e colar o conteúdo da pasta em um bloco de notas,
 3. Abrir o Power architect,
 4. Ir nos arquivos e selecionar o bloco de notas,
