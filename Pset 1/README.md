@@ -4,12 +4,10 @@
 ### Descrição:
 Pset consiste em um conjunto de problemas e tarefas difíceis propostas pelo professor:
 * Estudar alguns assuntos inéditos até então como Git, GitHub, PostgreSQ, Markdown, entre outros.
-* Resolver 15 questões discursivas sobre esses assuntos.
+* Resolver 15 questões discursivas sobre esses assuntos, que foram entregues de forma física.
 * Reproduzir o modelo lógico do Elmasri no PowerArchitect.
 * Implementar o banco de dados utilizando Postgres e Mysql.
 * Disponibilizar os Scripts SQL.
-
-#### Questões discursivas:
 
 #### Modelo do Elmasri:
 Como usar:
@@ -17,7 +15,8 @@ Como usar:
 2. Copiar e colar o conteúdo da pasta em um bloco de notas,
 3. Abrir o Power architect,
 4. Ir nos arquivos e selecionar o bloco de notas,
-5. O modole logico aparecerá no PowerArchitect.
+5. O modole logico aparecerá no PowerArchitect dessa forma:
+![]()
 
 #### Scrips SQL:
 como usar:
