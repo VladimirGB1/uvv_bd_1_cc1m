@@ -18,3 +18,9 @@ Como usar:
 3. Abrir o Power architect,
 4. Ir nos arquivos e selecionar o bloco de notas,
 5. O modole logico aparecerá no PowerArchitect.
+
+#### Scrips SQL:
+como usar:
+1. Acessar as pastas [Script_MySQL.SQL](<https://github.com/VladimirGB1/uvv_bd_1_cc1m/blob/main/Pset%201/Script_MySQL.SQL>) ou [Script_Postgres.SQL](<https://github.com/VladimirGB1/uvv_bd_1_cc1m/blob/main/Pset%201/Script_Postgres.SQL>),
+2. Seguir as instruções indicados por /**/,
+3. Copiar e colar os Scripts no terminal.
