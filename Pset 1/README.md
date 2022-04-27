@@ -16,7 +16,7 @@ Como usar:
 3. Abrir o Power architect,
 4. Ir nos arquivos e selecionar o bloco de notas,
 5. O modole logico aparecerá no PowerArchitect dessa forma:
-![]()
+![Modelo Elmasri](https://github.com/VladimirGB1/uvv_bd_1_cc1m/blob/main/Pset%201/Foto_PowerArchitect.png)
 
 #### Scrips SQL:
 como usar:
