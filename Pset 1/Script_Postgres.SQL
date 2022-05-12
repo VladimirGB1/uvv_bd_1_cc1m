@@ -55,7 +55,7 @@ CREATE TABLE elmasri.funcionario (
                 endereco VARCHAR(50),
                 sexo CHAR(1),
                 salario NUMERIC(10,2),
-                cpf_supervisor CHAR(11) NOT NULL,
+                cpf_supervisor CHAR(11),
                 numero_departamento INTEGER NOT NULL,
                 CONSTRAINT pk_funcionario PRIMARY KEY (cpf)
 );
@@ -199,7 +199,7 @@ NOT DEFERRABLE;
 /*Criar algumas regras de integridade(salário e horas: não podem receber valores negativos e sexo restrito a: Masculino e Feminino)*/
 alter table elmasri.funcionario add constraint CMF_funcionario check(sexo = 'M' or sexo = 'F');
 
-alter table elmasri.dependente add constraint CMF_funcionario check(sexo = 'M' or sexo = 'F');
+alter table elmasri.dependente add constraint CMF_dependente check(sexo = 'M' or sexo = 'F');
 
 alter table elmasri.funcionario add constraint CS_funcionario check(salario >= 0);
 
@@ -208,7 +208,7 @@ alter table elmasri.trabalha_em add constraint CH_trabalha_em check(horas >= 0);
 
 
 /*Inserir os dados nas tabelas*/
-insert into elmasri.funcionario values (88866555576, 'Jorge', 'E', 'Brito', '1937-11-10', 'Rua do Horto, 35, São Paulo, SP', 'M', 55000, 88866555576, 1),
+insert into elmasri.funcionario values (88866555576, 'Jorge', 'E', 'Brito', '1937-11-10', 'Rua do Horto, 35, São Paulo, SP', 'M', 55000, NULL, 1),
 (33344555587, 'Fernando', 'T', 'Wong', '1955-12-08', 'Rua da Lapa, 34, São Paulo, SP', 'M', 40000, 88866555576, 5),
 (98765432168, 'Jennifer', 'S', 'Souza', '1941-06-20', 'Av.Arthur de Lima, 54, Santo André, SP', 'F', 43000, 88866555576, 4),
 (12345678966, 'João', 'B', 'Silva', '1965-01-09', 'Rua das Flores, 751, São Paulo, SP', 'M', 30000, 33344555587, 5),

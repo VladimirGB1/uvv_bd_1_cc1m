@@ -12,7 +12,8 @@ create database uvv;
 /*Dar privilégios para o usuário vladimir no banco de dados uvv*/
 grant all on uvv.* to vladimir;
 
-/*Feche e abra o terminal, e Conecte-se ao usuário criado(vladimir)*/
+/*Deslogar do root e conectar ao usuário criado(vladimir)*/
+\q
 mysql -u vladimir -p
 /*Digite a senha(nesse caso: 12345)*/
 
@@ -31,7 +32,7 @@ CREATE TABLE funcionario (
                 endereco VARCHAR(50),
                 sexo CHAR(1),
                 salario DECIMAL(10,2),
-                cpf_supervisor CHAR(11) NOT NULL,
+                cpf_supervisor CHAR(11),
                 numero_departamento INT NOT NULL,
                 PRIMARY KEY (cpf)
 );
@@ -52,7 +53,7 @@ ALTER TABLE funcionario MODIFY COLUMN sexo CHAR(1) COMMENT 'Sexo do funcionário
 
 ALTER TABLE funcionario MODIFY COLUMN salario DECIMAL(10, 2) COMMENT 'Salário do funcionário.';
 
-ALTER TABLE funcionario MODIFY COLUMN cpf_supervisor CHAR(11) NOT NULL COMMENT 'CPF do supervisor. Será uma FK para a própria tabela.';
+ALTER TABLE funcionario MODIFY COLUMN cpf_supervisor CHAR(11) COMMENT 'CPF do supervisor. Será uma FK para a própria tabela.';
 
 ALTER TABLE funcionario MODIFY COLUMN numero_departamento INTEGER NOT NULL COMMENT 'Número do departamento do funcionário.';
 
@@ -201,7 +202,7 @@ ON UPDATE NO ACTION;
 /*Criar algumas regra de integridade(salário e horas: não podem receber valores negativos e sexo restrito a: Masculino e Feminino)*/
 alter table funcionario add constraint CMF_funcionario check(sexo = 'M' or sexo = 'F');
 
-alter table dependente add constraint CMF_funcionario check(sexo = 'M' or sexo = 'F');
+alter table dependente add constraint CMF_dependente check(sexo = 'M' or sexo = 'F');
 
 alter table funcionario add constraint CS_funcionario check(salario >= 0);
 
@@ -210,7 +211,7 @@ alter table trabalha_em add constraint CH_trabalha_em check(horas >= 0);
 
 
 /*inserir os dados nas tabelas*/
-insert into funcionario values (88866555576, 'Jorge', 'E', 'Brito', '1937-11-10', 'Rua do Horto, 35, São Paulo, SP', 'M', 55000, 88866555576, 1),
+insert into funcionario values (88866555576, 'Jorge', 'E', 'Brito', '1937-11-10', 'Rua do Horto, 35, São Paulo, SP', 'M', 55000, NULL, 1),
 (33344555587, 'Fernando', 'T', 'Wong', '1955-12-08', 'Rua da Lapa, 34, São Paulo, SP', 'M', 40000, 88866555576, 5),
 (98765432168, 'Jennifer', 'S', 'Souza', '1941-06-20', 'Av.Arthur de Lima, 54, Santo André, SP', 'F', 43000, 88866555576, 4),
 (12345678966, 'João', 'B', 'Silva', '1965-01-09', 'Rua das Flores, 751, São Paulo, SP', 'M', 30000, 33344555587, 5),
