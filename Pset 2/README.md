@@ -6,6 +6,9 @@ Pset consiste em um conjunto de problemas e tarefas difíceis propostas pelo pro
 * Resolver 15 questões de relatórios SQL em MySQL ou Postgres (Escolhi fazer os relatórios em MySQL),
 * Disponibilizar a resolução, no caso os Scripts SQL.
 
+#### Questões:
+
+
 #### Scripts SQL:
 como usar:
 1. utilizar o banco de dados MySQL criado no Pset 1: [Script_MySQL.SQL](<https://github.com/VladimirGB1/uvv_bd_1_cc1m/blob/main/Pset%201/Script_MySQL.SQL>),
