@@ -7,7 +7,8 @@ Pset consiste em um conjunto de problemas e tarefas difíceis propostas pelo pro
 * Disponibilizar a resolução, no caso os Scripts SQL.
 
 #### Questões:
-
+![Questões1a8](https://github.com/VladimirGB1/uvv_bd_1_cc1m/blob/main/Pset%202/Quest%C3%B5es1a8.png)
+![Questões9a15](https://github.com/VladimirGB1/uvv_bd_1_cc1m/blob/main/Pset%202/Quest%C3%B5es9a15.png)
 
 #### Scripts SQL:
 como usar:
