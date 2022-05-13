@@ -9,5 +9,5 @@ Pset consiste em um conjunto de problemas e tarefas difíceis propostas pelo pro
 
 #### Scripts SQL:
 como usar:
-1. utilizar o banco de dados Mysql criado no Pset 1:
+1. utilizar o banco de dados Mysql criado no Pset 1:[Script_MySQL.SQL](<https://github.com/VladimirGB1/uvv_bd_1_cc1m/blob/main/Pset%201/Script_MySQL.SQL>)
 
