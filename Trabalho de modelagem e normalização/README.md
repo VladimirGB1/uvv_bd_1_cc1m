@@ -6,7 +6,7 @@ Esse trabalho tem como objetivo colocar em prática as regras de normalização 
 * Elaborar um projeto lógico a partir de um projeto conceitual previamente definido,
 * No caso do meu grupo o projeto do cartório,
 * implementar o modelo lógico em um SGBD,
-* Disponibilizar os Scripts SQL, projeto lógico(.architect) e o projeto lógico em PDF.
+* Disponibilizar os Scripts SQL(No meu caso o MySQL), projeto lógico(.architect) e o projeto lógico em PDF.
 
 #### Modelo lógico(.architect):
 Como usar:
