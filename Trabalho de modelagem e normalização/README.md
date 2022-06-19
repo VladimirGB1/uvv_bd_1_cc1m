@@ -10,6 +10,12 @@ Esse trabalho tem como objetivo colocar em prática as regras de normalização 
 
 #### Modelo lógico(.architect):
 Como usar:
+1. Acessar a pasta [Projeto_lógico_cartório.architect](<https://github.com/VladimirGB1/uvv_bd_1_cc1m/blob/main/Trabalho%20de%20modelagem%20e%20normaliza%C3%A7%C3%A3o/Projeto_l%C3%B3gico_cart%C3%B3rio.architect>),
+2. Copiar e colar o conteúdo da pasta em um bloco de notas,
+3. Abrir o Power architect,
+4. Ir nos arquivos e selecionar o bloco de notas,
+5. O modole logico aparecerá no PowerArchitect dessa forma: [Projeto_lógico_cartório.pdf](<https://github.com/VladimirGB1/uvv_bd_1_cc1m/blob/main/Trabalho%20de%20modelagem%20e%20normaliza%C3%A7%C3%A3o/Projeto_l%C3%B3gico_cart%C3%B3rio.pdf>).
 
 #### Scripts SQL:
 Como usar:
+
