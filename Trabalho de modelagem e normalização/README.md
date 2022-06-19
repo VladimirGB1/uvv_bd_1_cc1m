@@ -18,4 +18,7 @@ Como usar:
 
 #### Scripts SQL:
 Como usar:
+1. Acessar as pastas [Script_MySQL3.SQL](<>)
+2. Seguir as instruções indicados por --,
+3. Copiar e colar os Scripts no terminal.
 
