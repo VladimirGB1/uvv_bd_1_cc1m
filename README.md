@@ -1,4 +1,4 @@
 # Ciência da Computação UVV
-## Disciplina: Linguagens de Programação
+## Disciplina: Design e Desenvolvimento de Banco de Dados, 1 Período
 ## Professor: Abrantes Araujo
-Esse repositório é destinado a armazenar projetos da Linguagens de Programação
+Esse repositório é destinado a armazenar projetos da diciplina Design e Desenvolvimento de Banco de Dados
